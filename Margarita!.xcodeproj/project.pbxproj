@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047064791CF85DBF000CEB42 /* FavoritesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047064781CF85DBF000CEB42 /* FavoritesViewCell.xib */; };
+		0470647B1CF85EB0000CEB42 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470647A1CF85EB0000CEB42 /* FavoritesTableViewCell.swift */; };
+		0470647D1CF85F5A000CEB42 /* FavoritesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470647C1CF85F5A000CEB42 /* FavoritesModel.swift */; };
+		047064801CF8697B000CEB42 /* RatingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470647E1CF8697B000CEB42 /* RatingsTableViewController.swift */; };
+		047064811CF8697B000CEB42 /* RatingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0470647F1CF8697B000CEB42 /* RatingsTableViewController.xib */; };
+		047064831CF86A47000CEB42 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047064821CF86A47000CEB42 /* StarsView.swift */; };
+		047064851CF86A52000CEB42 /* StarsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047064841CF86A52000CEB42 /* StarsView.xib */; };
+		047064871CF86DAD000CEB42 /* RatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047064861CF86DAD000CEB42 /* RatedModel.swift */; };
+		047064891CF87377000CEB42 /* RatingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047064881CF87377000CEB42 /* RatingsTableViewCell.swift */; };
 		0496B78F1CE8DDA40052BAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B78E1CE8DDA30052BAE8 /* AppDelegate.swift */; };
-		0496B7911CE8DDA40052BAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B7901CE8DDA40052BAE8 /* ViewController.swift */; };
+		0496B7911CE8DDA40052BAE8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B7901CE8DDA40052BAE8 /* MainViewController.swift */; };
 		0496B7941CE8DDA40052BAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496B7921CE8DDA40052BAE8 /* Main.storyboard */; };
 		0496B7971CE8DDA40052BAE8 /* Margarita_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0496B7951CE8DDA40052BAE8 /* Margarita_.xcdatamodeld */; };
-		0496B7991CE8DDA40052BAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0496B7981CE8DDA40052BAE8 /* Assets.xcassets */; };
 		0496B79C1CE8DDA40052BAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496B79A1CE8DDA40052BAE8 /* LaunchScreen.storyboard */; };
+		0496B7A41CE8E98E0052BAE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0496B7A31CE8E98E0052BAE8 /* Images.xcassets */; };
+		0496B7A81CE8FACD0052BAE8 /* PortraitMenuItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0496B7A71CE8FACD0052BAE8 /* PortraitMenuItemView.xib */; };
+		049C96C11CE9AB14001EAACA /* PortraitMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C96C01CE9AB14001EAACA /* PortraitMenuItemView.swift */; };
+		049C96C51CE9D5E9001EAACA /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C96C41CE9D5E9001EAACA /* FavoritesViewController.swift */; };
+		04D5E72C1CF765C5004F17BB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E72B1CF765C5004F17BB /* InfoViewController.swift */; };
+		04D5E7301CF769BC004F17BB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E72F1CF769BC004F17BB /* ContentViewController.swift */; };
+		04D5E7321CF78AA1004F17BB /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E7311CF78AA1004F17BB /* UIImageEffects.swift */; };
+		04D5E7341CF78FF3004F17BB /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E7331CF78FF3004F17BB /* FeedbackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047064781CF85DBF000CEB42 /* FavoritesViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewCell.xib; sourceTree = "<group>"; };
+		0470647A1CF85EB0000CEB42 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		0470647C1CF85F5A000CEB42 /* FavoritesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesModel.swift; sourceTree = "<group>"; };
+		0470647E1CF8697B000CEB42 /* RatingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsTableViewController.swift; sourceTree = "<group>"; };
+		0470647F1CF8697B000CEB42 /* RatingsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingsTableViewController.xib; sourceTree = "<group>"; };
+		047064821CF86A47000CEB42 /* StarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		047064841CF86A52000CEB42 /* StarsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarsView.xib; sourceTree = "<group>"; };
+		047064861CF86DAD000CEB42 /* RatedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatedModel.swift; sourceTree = "<group>"; };
+		047064881CF87377000CEB42 /* RatingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsTableViewCell.swift; sourceTree = "<group>"; };
 		0496B78B1CE8DDA30052BAE8 /* Margarita!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Margarita!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0496B78E1CE8DDA30052BAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0496B7901CE8DDA40052BAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0496B7901CE8DDA40052BAE8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0496B7931CE8DDA40052BAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0496B7961CE8DDA40052BAE8 /* Margarita_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Margarita_.xcdatamodel; sourceTree = "<group>"; };
-		0496B7981CE8DDA40052BAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0496B79B1CE8DDA40052BAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0496B79D1CE8DDA40052BAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0496B7A31CE8E98E0052BAE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		0496B7A71CE8FACD0052BAE8 /* PortraitMenuItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortraitMenuItemView.xib; sourceTree = "<group>"; };
+		049C96C01CE9AB14001EAACA /* PortraitMenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitMenuItemView.swift; sourceTree = "<group>"; };
+		049C96C41CE9D5E9001EAACA /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		04D5E72B1CF765C5004F17BB /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = ../InfoViewController.swift; sourceTree = "<group>"; };
+		04D5E72F1CF769BC004F17BB /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		04D5E7311CF78AA1004F17BB /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		04D5E7331CF78FF3004F17BB /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +88,29 @@
 		0496B78D1CE8DDA30052BAE8 /* Margarita! */ = {
 			isa = PBXGroup;
 			children = (
+				0496B7A31CE8E98E0052BAE8 /* Images.xcassets */,
 				0496B78E1CE8DDA30052BAE8 /* AppDelegate.swift */,
-				0496B7901CE8DDA40052BAE8 /* ViewController.swift */,
+				0496B7901CE8DDA40052BAE8 /* MainViewController.swift */,
 				0496B7921CE8DDA40052BAE8 /* Main.storyboard */,
-				0496B7981CE8DDA40052BAE8 /* Assets.xcassets */,
 				0496B79A1CE8DDA40052BAE8 /* LaunchScreen.storyboard */,
 				0496B79D1CE8DDA40052BAE8 /* Info.plist */,
 				0496B7951CE8DDA40052BAE8 /* Margarita_.xcdatamodeld */,
+				0496B7A71CE8FACD0052BAE8 /* PortraitMenuItemView.xib */,
+				04D5E72B1CF765C5004F17BB /* InfoViewController.swift */,
+				049C96C01CE9AB14001EAACA /* PortraitMenuItemView.swift */,
+				049C96C41CE9D5E9001EAACA /* FavoritesViewController.swift */,
+				0470647C1CF85F5A000CEB42 /* FavoritesModel.swift */,
+				0470647A1CF85EB0000CEB42 /* FavoritesTableViewCell.swift */,
+				047064781CF85DBF000CEB42 /* FavoritesViewCell.xib */,
+				0470647E1CF8697B000CEB42 /* RatingsTableViewController.swift */,
+				047064881CF87377000CEB42 /* RatingsTableViewCell.swift */,
+				0470647F1CF8697B000CEB42 /* RatingsTableViewController.xib */,
+				04D5E72F1CF769BC004F17BB /* ContentViewController.swift */,
+				04D5E7311CF78AA1004F17BB /* UIImageEffects.swift */,
+				04D5E7331CF78FF3004F17BB /* FeedbackViewController.swift */,
+				047064821CF86A47000CEB42 /* StarsView.swift */,
+				047064841CF86A52000CEB42 /* StarsView.xib */,
+				047064861CF86DAD000CEB42 /* RatedModel.swift */,
 			);
 			path = "Margarita!";
 			sourceTree = "<group>";
@@ -126,9 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047064811CF8697B000CEB42 /* RatingsTableViewController.xib in Resources */,
+				0496B7A41CE8E98E0052BAE8 /* Images.xcassets in Resources */,
+				0496B7A81CE8FACD0052BAE8 /* PortraitMenuItemView.xib in Resources */,
 				0496B79C1CE8DDA40052BAE8 /* LaunchScreen.storyboard in Resources */,
-				0496B7991CE8DDA40052BAE8 /* Assets.xcassets in Resources */,
+				047064791CF85DBF000CEB42 /* FavoritesViewCell.xib in Resources */,
 				0496B7941CE8DDA40052BAE8 /* Main.storyboard in Resources */,
+				047064851CF86A52000CEB42 /* StarsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +191,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047064891CF87377000CEB42 /* RatingsTableViewCell.swift in Sources */,
+				04D5E7321CF78AA1004F17BB /* UIImageEffects.swift in Sources */,
+				047064831CF86A47000CEB42 /* StarsView.swift in Sources */,
 				0496B7971CE8DDA40052BAE8 /* Margarita_.xcdatamodeld in Sources */,
-				0496B7911CE8DDA40052BAE8 /* ViewController.swift in Sources */,
+				049C96C11CE9AB14001EAACA /* PortraitMenuItemView.swift in Sources */,
+				0496B7911CE8DDA40052BAE8 /* MainViewController.swift in Sources */,
+				049C96C51CE9D5E9001EAACA /* FavoritesViewController.swift in Sources */,
+				047064871CF86DAD000CEB42 /* RatedModel.swift in Sources */,
+				0470647D1CF85F5A000CEB42 /* FavoritesModel.swift in Sources */,
+				0470647B1CF85EB0000CEB42 /* FavoritesTableViewCell.swift in Sources */,
+				04D5E72C1CF765C5004F17BB /* InfoViewController.swift in Sources */,
+				047064801CF8697B000CEB42 /* RatingsTableViewController.swift in Sources */,
 				0496B78F1CE8DDA40052BAE8 /* AppDelegate.swift in Sources */,
+				04D5E7341CF78FF3004F17BB /* FeedbackViewController.swift in Sources */,
+				04D5E7301CF769BC004F17BB /* ContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Margarita!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yohoho.Margarita-";
@@ -265,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Margarita!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yohoho.Margarita-";
@@ -291,6 +357,7 @@
 				0496B7A21CE8DDA40052BAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

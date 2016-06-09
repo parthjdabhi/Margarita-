@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Margarita!
 //
-//  Created by Карпенко Михайло on 15.05.16.
+//  Created by Карпенко Михайло on 26.05.16.
 //  Copyright © 2016 Карпенко Михайло. All rights reserved.
 //
 
@@ -13,10 +13,25 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
-
+	
+	var pageController: UIPageControl?
+	var pageControl: UIPageControl!
+	
+	var userDefaults: NSUserDefaults!
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
+		
+		pageControl = UIPageControl.appearance()
+		pageControl.pageIndicatorTintColor = UIColor.whiteColor()
+		pageControl.currentPageIndicatorTintColor = UIColor.orangeColor()
+		pageControl.backgroundColor = UIColor.clearColor()
+		
+		userDefaults = NSUserDefaults.standardUserDefaults()
+		let messagesArray: NSMutableArray = []
+		let messagesData = NSKeyedArchiver.archivedDataWithRootObject(messagesArray)
+		NSUserDefaults.standardUserDefaults().setObject(messagesData, forKey: "userMessages")
+		
 		return true
 	}
 
@@ -105,6 +120,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	            abort()
 	        }
 	    }
+	}
+	
+	
+	var isAppAlreadyLaunchedOnce: Bool? {
+		
+		get {
+			let defaults = NSUserDefaults.standardUserDefaults()
+			if let _ = defaults.stringForKey("isAppAlreadyLaunchedOnce"){
+				return true
+			}else{
+				defaults.setBool(true, forKey: "isAppAlreadyLaunchedOnce")
+				return false
+			}
+		}
+		
+		set {
+			let defaults = NSUserDefaults.standardUserDefaults()
+			if let _ = defaults.stringForKey("isAppAlreadyLaunchedOnce"){
+				self.isAppAlreadyLaunchedOnce = true
+			}else{
+				defaults.setBool(true, forKey: "isAppAlreadyLaunchedOnce")
+				self.isAppAlreadyLaunchedOnce = false
+			}
+		}
 	}
 
 }

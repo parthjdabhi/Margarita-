@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PortraitMenuItemView" customModule="Margarita_" customModuleProvider="target">
+            <connections>
+                <outlet property="goIcon" destination="fs2-ur-Ep3" id="j1e-e9-Mb1"/>
+                <outlet property="mainImage" destination="daH-6X-jbQ" id="XqV-Fo-9W0"/>
+                <outlet property="mainLabel" destination="UVb-8a-QUl" id="Y21-QW-yr8"/>
+                <outlet property="subLabel" destination="0cf-re-AwY" id="sUi-9K-08m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="AZc-hD-7tx">
+            <rect key="frame" x="0.0" y="0.0" width="560" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background6" translatesAutoresizingMaskIntoConstraints="NO" id="daH-6X-jbQ">
+                    <rect key="frame" x="0.0" y="0.0" width="168" height="62"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-8a-QUl">
+                    <rect key="frame" x="176" y="0.0" width="280" height="31"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.64891550180000002" blue="0.33773189510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cf-re-AwY">
+                    <rect key="frame" x="182" y="16" width="224" height="31"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goIcon" translatesAutoresizingMaskIntoConstraints="NO" id="fs2-ur-Ep3" userLabel="goIcon">
+                    <rect key="frame" x="462" y="9" width="84" height="44"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fs2-ur-Ep3" firstAttribute="centerY" secondItem="AZc-hD-7tx" secondAttribute="centerY" id="4ww-M0-EIy"/>
+                <constraint firstItem="0cf-re-AwY" firstAttribute="height" secondItem="AZc-hD-7tx" secondAttribute="height" multiplier="0.5" id="8UQ-F9-WA4"/>
+                <constraint firstItem="0cf-re-AwY" firstAttribute="centerY" secondItem="AZc-hD-7tx" secondAttribute="centerY" id="F45-4Y-e0C"/>
+                <constraint firstItem="UVb-8a-QUl" firstAttribute="width" secondItem="AZc-hD-7tx" secondAttribute="width" multiplier="0.5" id="HVZ-v0-j7K"/>
+                <constraint firstItem="daH-6X-jbQ" firstAttribute="height" secondItem="AZc-hD-7tx" secondAttribute="height" id="KTS-o6-bJg"/>
+                <constraint firstItem="UVb-8a-QUl" firstAttribute="centerY" secondItem="AZc-hD-7tx" secondAttribute="centerY" multiplier="0.5" id="PZG-8j-d8z"/>
+                <constraint firstItem="daH-6X-jbQ" firstAttribute="centerY" secondItem="AZc-hD-7tx" secondAttribute="centerY" id="Y0m-nX-SMp"/>
+                <constraint firstItem="UVb-8a-QUl" firstAttribute="height" secondItem="AZc-hD-7tx" secondAttribute="height" multiplier="0.5" id="ZJX-w7-Ouv"/>
+                <constraint firstItem="0cf-re-AwY" firstAttribute="centerX" secondItem="AZc-hD-7tx" secondAttribute="centerX" multiplier="1.05" id="ZSU-YU-Y0g"/>
+                <constraint firstItem="0cf-re-AwY" firstAttribute="width" secondItem="AZc-hD-7tx" secondAttribute="width" multiplier="0.4" id="aFT-sB-X9P"/>
+                <constraint firstItem="fs2-ur-Ep3" firstAttribute="centerX" secondItem="AZc-hD-7tx" secondAttribute="centerX" multiplier="1.8" id="d5x-eu-LtA"/>
+                <constraint firstItem="fs2-ur-Ep3" firstAttribute="height" secondItem="AZc-hD-7tx" secondAttribute="height" multiplier="0.7" id="iRb-0N-edt"/>
+                <constraint firstItem="UVb-8a-QUl" firstAttribute="centerX" secondItem="AZc-hD-7tx" secondAttribute="centerX" multiplier="1.13" id="mEz-m6-Xj1"/>
+                <constraint firstItem="fs2-ur-Ep3" firstAttribute="width" secondItem="AZc-hD-7tx" secondAttribute="width" multiplier="0.15" id="oV1-xu-Yef"/>
+                <constraint firstItem="daH-6X-jbQ" firstAttribute="centerX" secondItem="AZc-hD-7tx" secondAttribute="centerX" multiplier="0.3" id="xKy-By-hJW"/>
+                <constraint firstItem="daH-6X-jbQ" firstAttribute="width" secondItem="AZc-hD-7tx" secondAttribute="width" multiplier="0.3" id="xYb-fg-qo8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="326" y="399"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background6" width="1440" height="900"/>
+        <image name="goIcon" width="383" height="277"/>
+    </resources>
+</document>
